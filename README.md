@@ -3,6 +3,10 @@
 ## Overview
 This project aims to predict blood glucose levels in patients using a sophisticated Mixture of Experts (MoE) architecture. The architecture consists of multiple expert models, each specializing in different neural network structures. The goal is to leverage the strengths of various models to achieve a more accurate and robust prediction of blood glucose levels.
 
+## Preprocessing
+Data preprocessing is a crucial step to ensure the quality and reliability of the predictions. The preprocessing steps include:
+1. Extracting CGM data of patients
+2. Detecting and removing outliers 
 ## Architecture
 The Mixture of Experts architecture employed in this project includes the following components:
 
